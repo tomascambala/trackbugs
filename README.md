@@ -33,13 +33,13 @@ A Node.js and React application to manage system bugs using a CSV file.
 ## Getting Started
 
 ### Run Tests
- - **Frontend Unit Tests**:
+**Frontend Unit Tests**:
 
     cd ui
     npm install
     npm run test
 
- - **Backend Unit Tests**:
+**Backend Unit Tests**:
 
     cd server
     npm install
@@ -49,7 +49,7 @@ A Node.js and React application to manage system bugs using a CSV file.
 
    docker-compose up --build
 
- - **Access the app**:
+**Access the app**:
 
     Frontend: http://localhost:3000
     Backend: http://localhost:5000
