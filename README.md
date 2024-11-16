@@ -58,3 +58,9 @@ A Node.js and React application to manage system bugs using a CSV file.
 
     cd server
     npm run test
+
+**MANUAL TEST of webhook**:
+
+    cd server/data/issues.csv
+
+    Add/change some value
