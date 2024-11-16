@@ -9,27 +9,6 @@ A Node.js and React application to manage system bugs using a CSV file.
 - **Testing**: Jest for unit tests, Cucumber for BDD tests
 - **Deployment**: Docker for building and running the app
 
-## Getting Started
-
-### Build and Run the Application
-
-1. Navigate to the project root and run:
-
-   ```bash
-   docker-compose up --build
-
-2. Access the app:
-
-Frontend: http://localhost:3000
-Backend: http://localhost:5000
-
-
-markdown
-Copy code
-# Bug Tracker Application
-
-A Node.js and React application to manage system bugs using a CSV file.
-
 ## Features
 
 1. **Create a New Issue**:
@@ -53,31 +32,29 @@ A Node.js and React application to manage system bugs using a CSV file.
 
 ## Getting Started
 
-### Build and Run the Application
+### Run Tests
+ - **Frontend Unit Tests**:
 
-3 Run Tests
-Frontend Unit Tests:
+    cd ui
+    npm install
+    npm run test
 
-cd ui
-npm install
-npm run test
+ - **Backend Unit Tests**:
 
-Backend Unit Tests:
+    cd server
+    npm install
+    npm run jest
 
-cd server
-npm install
-npm run jest
-
-Navigate to the project root and run (install docker):
+ - Navigate to the project root and run:
 
    docker-compose up --build
 
-Access the app:
+ - **Access the app**:
 
-Frontend: http://localhost:3000
-Backend: http://localhost:5000
+    Frontend: http://localhost:3000
+    Backend: http://localhost:5000
 
-RUN BDD:
+**RUN BDD**:
 
-cd server
-npm run test
+    cd server
+    npm run test
