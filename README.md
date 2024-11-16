@@ -5,7 +5,7 @@ A Node.js and React application to manage system bugs using a CSV file.
 ## Requirements
 
 - **Frontend**: React + TypeScript
-- **Backend**: Node.js + Express + TypeScript
+- **Backend**: Node.js (version:20.10.0) + Express + TypeScript
 - **Testing**: Jest for unit tests, Cucumber for BDD tests
 - **Deployment**: Docker for building and running the app
 
