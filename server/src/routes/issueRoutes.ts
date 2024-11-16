@@ -6,7 +6,7 @@ const router = Router();
 
 router.get('/', getAllIssues);
 router.post('/', createIssue);
-router.patch('/:id/close', closeIssue);
+router.post('/:id/close', closeIssue);
 
 // Webhook subscription endpoint
 router.post('/subscribe-webhook', subscribeWebhook);
