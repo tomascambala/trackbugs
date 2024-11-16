@@ -45,7 +45,7 @@ A Node.js and React application to manage system bugs using a CSV file.
     npm install
     npm run jest
 
- - Navigate to the project root and run:
+**Navigate to the project root and run**:
 
    docker-compose up --build
 

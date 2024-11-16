@@ -9,7 +9,7 @@ interface IssueListProps {
 
 const IssueList: React.FC<IssueListProps> = ({ issues, onClose }) => {
     return (
-        <Table striped bordered hover>
+        <Table striped bordered hover aria-label={"table of issues"}>
             <thead>
                 <tr>
                     <th>ID</th>
@@ -26,7 +26,7 @@ const IssueList: React.FC<IssueListProps> = ({ issues, onClose }) => {
                         <td>{issue.status}</td>
                         <td>
                             {issue.status === 'Open' && (
-                                <Button variant="danger" onClick={() => onClose(issue.id)}>
+                                <Button variant="danger" onClick={() => onClose(issue.id)} aria-label={"button close"}>
                                     Close
                                 </Button>
                             )}

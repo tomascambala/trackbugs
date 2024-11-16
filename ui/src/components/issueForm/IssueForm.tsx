@@ -26,6 +26,7 @@ const IssueForm: React.FC<IssueFormProps> = ({ onSubmit }) => {
             <Form.Group controlId="formDescription">
                 <Form.Label>Description</Form.Label>
                 <Form.Control
+                    aria-label={"description"}
                     type="text"
                     value={description}
                     onChange={(e) => setDescription(e.target.value)}
@@ -35,6 +36,7 @@ const IssueForm: React.FC<IssueFormProps> = ({ onSubmit }) => {
             <Form.Group controlId="formParentId">
                 <Form.Label>Parent ID</Form.Label>
                 <Form.Control
+                    aria-label={"parent id"}
                     type="text"
                     value={parentId}
                     onChange={(e) => setParentId(e.target.value)}
@@ -46,12 +48,13 @@ const IssueForm: React.FC<IssueFormProps> = ({ onSubmit }) => {
                 <Form.Control
                     type="url"
                     value={link}
+                    aria-label={"log link"}
                     onChange={(e) => setLink(e.target.value)}
                 />
             </Form.Group>
 
             <div className='container-button'>
-                <Button variant="primary" type="submit">
+                <Button variant="primary" type="submit" aria-label={"create issue button"}>
                     Create Issue
                 </Button>
             </div>
