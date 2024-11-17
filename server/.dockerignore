@@ -4,13 +4,6 @@ node_modules
 # Ignore compiled TypeScript files
 dist
 
-# Ignore local environment files
-.env
-.env.local
-.env.development
-.env.test
-.env.production
-
 # Ignore Git files
 .git
 .gitignore

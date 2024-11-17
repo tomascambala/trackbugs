@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "Server in nodejs with handling tracking bug system",
   "main": "src/index.ts",
-  "type": "module",
   "scripts": {
     "test": "cucumber-js",
     "jest": "jest",
     "build": "tsc",
-    "start": "noude dist/app.js",
+    "start": "node dist/app.js",
     "dev": "nodemon src/app.ts"
   },
   "author": "Tomas Cambala",
